@@ -1,0 +1,55 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: aqua;
+    color: black;
+   
+}
+.msgbox{
+   margin: 5px  5px 5px 5px;
+}
+.sign{
+    background-color: green;
+    color: red;
+}
+
+#btn{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    font-size: 25px;
+    margin-left: 15px;
+    /* color: red;
+    background-color: blue; */
+}
+#txt{
+    width: 335px;
+    height: 50px;
+    border-radius: 10px;
+    margin: 15px 15px 15px 15px;
+}
+.calc{
+    height: 470px;
+    width: 370px;
+    border: 1px solid red;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.btnsclass {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 5px;
+}
