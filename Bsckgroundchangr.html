@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+ <body> 
+    <button onclick =" bcg() " id ='uadhduia' > click me</button>
+    <button  onclick="cl()">stop</button>
+    <button  onclick="interval()">rgb</button>
+
+    <button > click for the keyboard</button>
+    <button onclick="dATE()">check date</button>
+    <input type="text" onkeypress="myFunction(event)">
+    <h1 onmouseover="abc() " onmouseout="xyz()">harshil</h1>
+<script>
+    bcg=()=>{
+         red = Math.ceil((Math.random())*255);
+         BLUE = Math.ceil((Math.random())*255);
+         green =Math.ceil ((Math.random())*255);
+         
+         document.body.style.backgroundColor = `rgb(${red}, ${BLUE}, ${green})`;
+       
+             
+       
+           
+    }
+    abc = ()=>{
+        document.querySelector("h1").style.color = "red";
+        document.querySelector("h1").style.backgroundColor = "green";
+    }
+    xyz=()=>{
+        document.querySelector("h1").style.color = "cyan";
+        document.querySelector("h1").style.backgroundColor = "red";
+    }
+    myFunction =(event)=>{
+        console.log(event);
+    }
+    interval =()=>{
+        a = setInterval(bcg,10);
+    }
+    
+    cl = ()=>{
+     clearInterval(a);
+    }
+    dATE = ()=>{
+     d = new Date().toLocaleString();
+        console.log(d);
+    }
+</script>
+</body>
+</html>
