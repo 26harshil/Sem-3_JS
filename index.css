@@ -1,0 +1,170 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* index.css */
+
+/* Basic Reset */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Layout Container Styles */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+}
+
+/* Navbar Styles */
+.navbar {
+  background-color: #343a40; /* Dark background */
+}
+
+.navbar-brand {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.nav-link {
+  color: #ffffff !important;
+}
+
+.nav-link.active {
+  color: #07d6ff !important; /* Highlight active link */
+}
+
+/* Main Content Area Styles */
+.main-content {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar Styles */
+.sidebar {
+  background-color: #f8f9fa; /* Light background for sidebar */
+  padding: 20px;
+  width: 250px; /* Fixed width for sidebar */
+}
+
+/* Content Area Styles */
+.content {
+  flex: 1;
+  padding: 20px;
+  background-color: #ffffff;
+}
+
+/* Footer Styles */
+.footer {
+  margin-top: auto; /* Pushes footer to the bottom */
+  border: none;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: #ffffff;
+}
+
+.card-body {
+  background-color: #f8f9fa;
+}
+
+.card-footer {
+  background-color: #e9ecef;
+  color: #6c757d;
+}
+
+/* Responsive Styles */
+
+/* Mobile Devices (portrait and landscape) */
+@media (max-width: 767px) {
+  .navbar {
+    padding: 10px;
+  }
+
+  .sidebar {
+    display: none; /* Hide sidebar on small screens */
+  }
+
+  .content {
+    padding: 10px;
+  }
+}
+
+/* Tablets */
+@media (min-width: 768px) and (max-width: 991px) {
+  .navbar {
+    padding: 15px;
+  }
+
+  .sidebar {
+    width: 100%; /* Full width for sidebar on tablets */
+  }
+
+  .content {
+    padding: 15px;
+  }
+}
+
+/* Desktops and Larger Screens */
+@media (min-width: 992px) {
+  .navbar {
+    padding: 20px;
+  }
+
+  .sidebar {
+    width: 250px; /* Fixed width for sidebar on larger screens */
+  }
+
+  .content {
+    padding: 20px;
+  }
+  /* Layout container */
+.layout-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main layout structure */
+.layout {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 250px;
+  background-color: #f8f9fa;
+  padding: 20px;
+  box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.sidebar .nav-link {
+  margin-bottom: 10px;
+}
+
+/* Main content area */
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+} 
